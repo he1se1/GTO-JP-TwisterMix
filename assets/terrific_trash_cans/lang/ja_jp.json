@@ -1,0 +1,9 @@
+{
+    "container.terrific_trash_cans.energy_trash_can": "エネルギーゴミ箱",
+    "container.terrific_trash_cans.fluid_trash_can": "液体ゴミ箱",
+    "container.terrific_trash_cans.item_trash_can": "アイテムゴミ箱",
+    "block.terrific_trash_cans.energy_trash_can": "エネルギーゴミ箱",
+    "block.terrific_trash_cans.fluid_trash_can": "液体ゴミ箱",
+    "block.terrific_trash_cans.item_trash_can": "アイテムゴミ箱",
+    "itemGroup.terrific_trash_cans": "ゴミ箱"
+}

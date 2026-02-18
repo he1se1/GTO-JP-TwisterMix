@@ -1,0 +1,12 @@
+{
+    "item.expatternprovider.precise_storage_bus": "ME精密ストレージバス",
+    "item.expatternprovider.threshold_export_bus": "MEしきい値搬出バス",
+    "item.expatternprovider.oversize_interface_part": "ME大型インターフェース",
+    "block.expatternprovider.assembler_matrix_glass": "組立マトリクスガラス",
+    "block.expatternprovider.wireless_hub": "MEワイヤレスハブ",
+    "gui.expatternprovider.precise_storage_bus": "ME精密ストレージバス",
+    "gui.expatternprovider.threshold_export_bus": "MEしきい値搬出バス",
+    "gui.expatternprovider.oversize_interface": "ME大型インターフェース",
+    "gui.expatternprovider.threshold_export_bus.greater": "しきい値を上回る時に動作",
+    "gui.expatternprovider.threshold_export_bus.lower": "しきい値を下回る時に動作"
+}

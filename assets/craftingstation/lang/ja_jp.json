@@ -1,0 +1,10 @@
+{
+    "block.craftingstation.crafting_station": "作成ステーション",
+    "block.craftingstation.crafting_station_slab": "作成ステーションのハーフブロック",
+    "title.crafting_station": "作成ステーション",
+    "text.crafting_station.error": "不正なレシピ%sが見つかりました。詳細はログを確認してください。",
+    "text.crafting_station.clear": "クラフトグリッドをクリア\\n(Shiftキーを押しながらでサイドバーのインベントリを優先的にクリア)",
+    "text.crafting_station.connected_resources.true": "隣接するリソースを使用: 有効",
+    "text.crafting_station.connected_resources.false": "隣接するリソースを使用: 無効",
+    "text.crafting_station.jei_nopull_output": "このコンテナのスロットはロックされています！\\nEMIは、かまどの出力スロットなどの出力専用スロットからリソースを取り出すことができません。\\n\\nこれらのアイテムを使用するには、通常のストレージスロットに移動してください！"
+}

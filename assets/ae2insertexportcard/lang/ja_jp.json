@@ -1,0 +1,7 @@
+{
+    "itemGroup.ae2insertexportcard": "AE2搬入・搬出カード",
+    "item.ae2insertexportcard.insert_card": "搬入カード",
+    "item.ae2insertexportcard.export_card": "搬出カード",
+    "gui.ae2insertexportcard.whitelist": "ホワイトリスト",
+    "gui.ae2insertexportcard.blacklist": "ブラックリスト"
+}

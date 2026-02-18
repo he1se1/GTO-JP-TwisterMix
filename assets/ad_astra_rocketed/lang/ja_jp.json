@@ -1,0 +1,10 @@
+{
+    "item.ad_astra_rocketed.tier_5_rocket": "ティア5ロケット",
+    "item.ad_astra_rocketed.tier_6_rocket": "ティア6ロケット",
+    "item.ad_astra_rocketed.tier_7_rocket": "ティア7ロケット",
+    "creativetab.ad_astra_rocketed_tab": "Blue Skies互換",
+    "itemGroup.ad_astra_rocketed.main": "Ad Astra Rocketed",
+    "entity.ad_astra.tier_5_rocket": "ティア5ロケット",
+    "entity.ad_astra.tier_6_rocket": "ティア6ロケット",
+    "entity.ad_astra.tier_7_rocket": "ティア7ロケット"
+}

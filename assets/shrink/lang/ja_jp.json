@@ -1,0 +1,8 @@
+{
+    "item.mob_bottle.tooltip_empty": "小さくなったエンティティを右クリックして、ガラス瓶で捕獲する",
+    "item.shrink.mob_bottle": "ガラス瓶",
+    "item.shrink.shrinking_device": "個人用縮小装置",
+    "itemGroup.shrink": "Shrink",
+    "key.shrink.category": "Shrink",
+    "key.shrink.shrink": "縮小率を切り替える"
+}

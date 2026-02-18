@@ -1,0 +1,18 @@
+{
+    "key.ftbultimine": "FTB Ultimine",
+    "key.categories.ftbultimine": "FTB Ultimine",
+    "ftbultimine.info.base": "FTB Ultimine%s",
+    "ftbultimine.info.active": "有効",
+    "ftbultimine.info.not_active": "無効",
+    "ftbultimine.info.blocks": "%d個のブロックを採掘",
+    "ftbultimine.info.partial_render": "%d個を描画済み",
+    "ftbultimine.change_shape": "Shiftキーを押しながら（マウスホイールを回転させるか、上下の矢印キーを使用）で形状を変更",
+    "ftbultimine.shape.shapeless": "不定形",
+    "ftbultimine.shape.small_tunnel": "小さなトンネル",
+    "ftbultimine.shape.small_square": "小さな正方形",
+    "ftbultimine.shape.mining_tunnel": "採掘トンネル",
+    "ftbultimine.shape.escape_tunnel": "脱出トンネル",
+    "ftbultimine.config": "FTB Ultimine設定",
+    "item.ftbultimine.ultiminer": "Ultiminer",
+    "item.ftbultimine.ultiminer.tooltip": "有効時に%sの使用を許可します"
+}

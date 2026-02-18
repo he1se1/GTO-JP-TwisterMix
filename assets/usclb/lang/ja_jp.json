@@ -1,0 +1,9 @@
+{
+    "block.usclb.clipboard": "クリップボード",
+    "item.usclb.clipboardfolder": "クリップボードのフォルダ",
+    "item.usclb.inkandquill": "インクと羽ペン",
+    "itemGroup.usclb_tab": "実用的なクリップボード",
+    "gui.title": "メモ",
+    "tooltip.usclb.clipboard.tooltip.notwritten": "メモが書かれていません",
+    "tooltip.usclb.clipboard.tooltip.notesby": "メモの作成者: "
+}

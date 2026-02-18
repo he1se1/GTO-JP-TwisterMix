@@ -1,0 +1,11 @@
+{
+    "tooltip.food_reduction": "空腹度回復量が %s%% 減少",
+    "item.solclassic.basket": "バスケット",
+    "container.basket": "バスケット",
+    "item.solclassic.large_basket": "大きなバスケット",
+    "container.large_basket": "大きなバスケット",
+    "item.solclassic.wicker_basket": "柳のバスケット",
+    "container.wicker_basket": "柳のバスケット",
+    "tooltip.wicker_basket.description1": "右クリックで最適な食べ物を食べる",
+    "tooltip.wicker_basket.description2": "Shift + 右クリックで開く"
+}
