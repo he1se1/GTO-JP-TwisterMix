@@ -61,7 +61,7 @@ for rel_path in all_rel_paths:
     # 保存先ディレクトリを作成して書き出し
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
     with open(out_path, 'w', encoding='utf-8') as f:
-        json.dump(merged_data, f, ensure_ascii=False, indent=4)
+        json.dump(merged_data, f, ensure_ascii=False, sort_keys=True, indent=4)
     if count_manual > 0:
         print(f"ファイル{rel_path}で{count_manual}件の手動翻訳を採用")
     else:
