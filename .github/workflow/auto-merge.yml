@@ -1,0 +1,93 @@
+name: Manual-MT Merge and Release
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+env:
+  # ここでZIPの名前の先頭部分を指定
+  PACK_NAME_PREFIX: "GTO0.5.4-JP-Twister&Gemini-byKirikemo"
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  check-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout this repo (MT)
+        uses: actions/checkout@v4
+        with:
+          path: mt-repo
+
+      - name: Get latest hash
+        id: remote-hash
+        run: |
+          HASH=$(git ls-remote https://github.com/twister716/GregTech-Odessey-JP-Translation.git HEAD | awk '{ print $1 }')
+          echo "latest_hash=$HASH" >> $GITHUB_OUTPUT
+
+      - name: Cache hash
+        id: cache-hash
+        uses: actions/cache@v4
+        with:
+          path: last_hash.txt
+          key: manual-hash-${{ steps.remote-hash.outputs.latest_hash }}
+
+      - name: Check update
+        id: check
+        run: |
+          if [ -f last_hash.txt ] && [ "$(cat last_hash.txt)" == "${{ steps.remote-hash.outputs.latest_hash }}" ]; then
+            echo "update_needed=false" >> $GITHUB_OUTPUT
+          else
+            echo "${{ steps.remote-hash.outputs.latest_hash }}" > last_hash.txt
+            echo "update_needed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Checkout Manual repo
+        if: steps.check.outputs.update_needed == 'true'
+        uses: actions/checkout@v4
+        with:
+          repository: twister716/GregTech-Odessey-JP-Translation
+          path: manual-repo
+
+      - name: Set up Python & env
+        if: steps.check.outputs.update_needed == 'true'
+        run: |
+          # 日付を取得して環境変数へ (例: MyCustomTranslation-20260218)
+          echo "ZIP_NAME=${{ env.PACK_NAME_PREFIX }}-$(date +'%Y%m%d')" >> $GITHUB_ENV
+
+      - name: Merge JSONs
+        if: steps.check.outputs.update_needed == 'true'
+        run: python mt-repo/.github/scripts/merge_lang.py
+
+      - name: Create Zip
+        if: steps.check.outputs.update_needed == 'true'
+        run: |
+          cd output
+          zip -r ../${{ env.ZIP_NAME }}.zip .
+          cd ..
+
+      - name: GitHub Release
+        if: steps.check.outputs.update_needed == 'true'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: build-${{ env.ZIP_NAME }}
+          name: "Release ${{ env.ZIP_NAME }}"
+          files: ${{ env.ZIP_NAME }}.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Cleanup Old Releases
+        if: steps.check.outputs.update_needed == 'true'
+        run: |
+          # 最新10件のリリースを取得、先頭3件を除いて削除
+          old_releases=$(gh release list --limit 10 | awk '{print $1}' | tail -n +4)
+          
+          for tag in $old_releases; do
+            echo "Deleting old release: $tag"
+            gh release delete "$tag" --yes --cleanup-tag
+          done
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
