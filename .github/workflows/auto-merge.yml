@@ -46,31 +46,31 @@ jobs:
           fi
 
       - name: Checkout Manual repo
-        if: steps.check.outputs.update_needed == 'true'
+        if: steps.check.outputs.update_needed == 'true' || github.event_name == 'workflow_dispatch'
         uses: actions/checkout@v4
         with:
           repository: twister716/GregTech-Odessey-JP-Translation
           path: manual-repo
 
       - name: Set up Python & env
-        if: steps.check.outputs.update_needed == 'true'
+        if: steps.check.outputs.update_needed == 'true' || github.event_name == 'workflow_dispatch'
         run: |
           # 日付を取得して環境変数へ (例: MyCustomTranslation-20260218)
           echo "ZIP_NAME=${{ env.PACK_NAME_PREFIX }}-$(date +'%Y%m%d')" >> $GITHUB_ENV
 
       - name: Merge JSONs
-        if: steps.check.outputs.update_needed == 'true'
+        if: steps.check.outputs.update_needed == 'true' || github.event_name == 'workflow_dispatch'
         run: python mt-repo/.github/scripts/merge_lang.py
 
       - name: Create Zip
-        if: steps.check.outputs.update_needed == 'true'
+        if: steps.check.outputs.update_needed == 'true' || github.event_name == 'workflow_dispatch'
         run: |
           cd output
           zip -r ../${{ env.ZIP_NAME }}.zip .
           cd ..
 
       - name: GitHub Release
-        if: steps.check.outputs.update_needed == 'true'
+        if: steps.check.outputs.update_needed == 'true' || github.event_name == 'workflow_dispatch'
         uses: softprops/action-gh-release@v2
         with:
           tag_name: build-${{ env.ZIP_NAME }}
@@ -80,7 +80,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Cleanup Old Releases
-        if: steps.check.outputs.update_needed == 'true'
+        if: steps.check.outputs.update_needed == 'true' || github.event_name == 'workflow_dispatch'
         run: |
           # 最新10件のリリースを取得、先頭3件を除いて削除
           old_releases=$(gh release list --limit 10 | awk '{print $1}' | tail -n +4)
