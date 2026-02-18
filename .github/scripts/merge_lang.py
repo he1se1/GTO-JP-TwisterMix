@@ -15,7 +15,7 @@ def contains_japanese(text):
 def safe_load_json(path):
     if not os.path.exists(path): return {}
     try:
-        with open(path, 'r', encoding='utf-8') as f:
+        with open(path, 'r', encoding='utf-8-sig') as f:
             return json.load(f)
     except Exception as e:
         print(f"Warning: Failed to load {path} - {e}")
