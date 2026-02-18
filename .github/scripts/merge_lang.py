@@ -29,6 +29,7 @@ for repo in [MANUAL_DIR, MT_DIR]:
         all_rel_paths.add(p.relative_to(repo))
 
 # 2. 全パスに対してマージ処理
+print("::group::マージ詳細ログを表示")  # グループ開始
 for rel_path in all_rel_paths:
     manual_path = os.path.join(MANUAL_DIR, rel_path)
     mt_path = os.path.join(MT_DIR, rel_path)
@@ -64,7 +65,10 @@ for rel_path in all_rel_paths:
         json.dump(merged_data, f, ensure_ascii=False, indent=4)
     if count_manual > 0:
         print(f"ファイル{rel_path}で{count_manual}件の手動翻訳を採用")
+    else:
+        print(f"ファイル{rel_path}は手動翻訳なしで機械翻訳のみを採用")
 
+print("::endgroup::")  # グループ終了
 # 3. pack.mcmeta の生成
 mcmeta_path = os.path.join(OUTPUT_DIR, 'pack.mcmeta')
 with open(mcmeta_path, 'w', encoding='utf-8') as f:
