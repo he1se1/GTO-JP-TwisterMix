@@ -40,6 +40,7 @@ for rel_path in all_rel_paths:
     merged_data = {}
     # 両方のJSONにあるキーをすべて合わせる
     all_keys = set(m_data.keys()) | set(mt_data.keys())
+    count_manual = 0
 
     for key in all_keys:
         m_val = m_data.get(key)
@@ -49,6 +50,7 @@ for rel_path in all_rel_paths:
         # 手動側にキーがあり、かつ日本語が含まれていれば採用
         if m_val and contains_japanese(m_val):
             merged_data[key] = m_val
+            count_manual += 1
         # それ以外（手動側が英語、または手動側にキーがない）なら機械翻訳側を採用
         elif mt_val:
             merged_data[key] = mt_val
@@ -60,6 +62,8 @@ for rel_path in all_rel_paths:
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
     with open(out_path, 'w', encoding='utf-8') as f:
         json.dump(merged_data, f, ensure_ascii=False, indent=4)
+    if count_manual > 0:
+        print(f"ファイル{rel_path}で{count_manual}件の手動翻訳を採用")
 
 # 3. pack.mcmeta の生成
 mcmeta_path = os.path.join(OUTPUT_DIR, 'pack.mcmeta')
