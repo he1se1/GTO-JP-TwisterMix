@@ -7,7 +7,7 @@ on:
 
 env:
   # ここでZIPの名前の先頭部分を指定
-  PACK_NAME_PREFIX: "GTO0.5.4-JP-Twister&Gemini-byKirikemo"
+  PACK_NAME_PREFIX: "GTO0.5.4-JP-Twister-And-Gemini-byKirikemo"
 
 permissions:
   contents: write
