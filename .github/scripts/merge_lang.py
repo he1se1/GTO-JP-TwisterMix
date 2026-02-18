@@ -75,6 +75,6 @@ with open(mcmeta_path, 'w', encoding='utf-8') as f:
             "pack_format": 15,
             "description": f"GregTech Odyssey日本語化リソースパック Twister716氏による訳の不足分に機械翻訳を統合 ({datetime.now().strftime('%Y-%m-%d')})"
         }
-    }, f, ensure_ascii=True, indent=4)
+    }, f, ensure_ascii=False, indent=4)
 
 print(f"Processing complete. {len(all_rel_paths)} files merged.")
