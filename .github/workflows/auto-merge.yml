@@ -60,7 +60,7 @@ jobs:
 
       - name: Merge JSONs
         if: steps.check.outputs.update_needed == 'true' || github.event_name == 'workflow_dispatch'
-        run: python mt-repo/.github/scripts/merge_lang.py
+        run: python -u mt-repo/.github/scripts/merge_lang.py
 
       - name: Create Zip
         if: steps.check.outputs.update_needed == 'true' || github.event_name == 'workflow_dispatch'
