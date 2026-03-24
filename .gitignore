@@ -1,6 +1,9 @@
 # Quest
 assets/gto/
 
+# english
+en_us.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
