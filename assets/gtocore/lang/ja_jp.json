@@ -1091,7 +1091,7 @@
   "item.gtocore.diamond_vein_essence": "ダイヤモンドの鉱脈エッセンス",
   "item.gtocore.diffractor_grating_mirror": "回折格子ミラー",
 
-  "block.gtocore.digestion_tank": "煮解槽",
+  "block.gtocore.digestion_tank": "消化槽",
   "gtocore.lang.digestion_tank.0.385642156": "GTOグループ炊事班の従業員C-936は、誤って鉱産部門の廃棄物を塩と間違えて調理鍋に投入してしまいました。",
   "gtocore.lang.digestion_tank.1.-1316331609": "いわゆる「とろ火でじっくり煮込む」ことで、溶解と析出が図らずも精製作用を果たしました。",
   "gtocore.lang.digestion_tank.2.-2111876965": "当該従業員C-936は、500技術員コインの罰金と1日間の厳重注意を受けました。",
@@ -1416,7 +1416,7 @@
   "block.gtocore.ev_arc_generator": "§5高度アーク発生器 III§r",
   "gtocore.machine.ev_arc_generator.tooltip": "§7摩擦発電",
 
-  "block.gtocore.ev_cluster": "§5高度多段圧延機 III§r",
+  "block.gtocore.ev_cluster": "§5高度クラスター圧延機 III§r",
   "gtocore.machine.ev_cluster.tooltip": "§7ウェハーの生産",
 
   "block.gtocore.ev_dehydrator": "§5高度脱水機 III§r",
@@ -1843,7 +1843,7 @@
 
   "block.gtocore.heat_insulation_tile_casing": "断熱タイル機械ブロック",
   "block.gtocore.heat_sensor": "熱センサー",
-  "block.gtocore.heater": "加熱器",
+  "block.gtocore.heater": "燃料式ヒーター",
   "item.gtocore.heavy_duty_plate_1": "ティア1ヘビーデューティープレート",
   "item.gtocore.heavy_duty_plate_2": "ティア2ヘビーデューティープレート",
   "item.gtocore.heavy_duty_plate_3": "ティア3ヘビーデューティープレート",
@@ -1918,10 +1918,10 @@
   "gtocore.lang.holy_separator.3.205609803": "荘厳な低周波のハミングは、まるで分離の聖歌を詠唱しているかのようです。",
   "gtocore.lang.holy_separator.4.-1480114238": "密度の差異が、最も優雅な分離の芸術となります。",
 
-  "block.gtocore.hootch": "フーチ",
-  "fluid.gtocore.hootch": "フーチ",
+  "block.gtocore.hootch": "合成酒",
+  "fluid.gtocore.hootch": "合成酒",
 
-  "item.gtocore.hootch_bucket": "フーチバケツ",
+  "item.gtocore.hootch_bucket": "合成酒バケツ",
   "item.gtocore.hot_iron_ingot": "熱い鉄インゴット",
 
   "block.gtocore.hp_steam_vacuum_pump": "高圧蒸気真空ポンプ",
@@ -1950,7 +1950,7 @@
   "block.gtocore.hv_arc_generator": "§6高度なアーク発生器 II§r",
   "gtocore.machine.hv_arc_generator.tooltip": "§7摩擦発電",
 
-  "block.gtocore.hv_cluster": "§6高度な多段圧延機 II§r",
+  "block.gtocore.hv_cluster": "§6高度なクラスター圧延機 II§r",
   "gtocore.machine.hv_cluster.tooltip": "§7ウェハーの生産",
 
   "block.gtocore.hv_dehydrator": "§6高度な脱水機 II§r",
@@ -1980,7 +1980,7 @@
   "block.gtocore.hv_mana_input_hatch": "エルフのマナ搬入ハッチ",
   "block.gtocore.hv_mana_machine_hull": "エルフのマナマシン筐体",
   "block.gtocore.hv_mana_output_hatch": "エルフのマナ搬出ハッチ",
-  "block.gtocore.hv_neutron_accelerator": "§6HV§r中性子加速器",
+  "block.gtocore.hv_neutron_accelerator": "§6HV§r中性子加速器", 
   "item.gtocore.hv_power_amplifiers": "HVパワーアンプ",
   "block.gtocore.hv_programmablec_hatch": "§6HV§rプログラマブルハッチ",
 
@@ -2220,9 +2220,9 @@
   "item.gtocore.iron_kinetic_rotor": "鉄の動力ローター",
   "item.gtocore.iron_vein_essence": "鉄の鉱脈のエッセンス",
 
-  "gtceu.isa_mill": "ISAミル",
-  "block.gtocore.isa_mill": "イサミル",
-  "gtocore.lang.isa_mill.0.-549929752": "このアイサ1672N型粉砕機は、緑色の外見をしているが、実際には全く環境に優しくない。",
+  "gtceu.isa_mill": "Isaミル",
+  "block.gtocore.isa_mill": "Isaミル",
+  "gtocore.lang.isa_mill.0.-549929752": "このアイサ1672N型湿式攪拌微粉砕機は、グリーンのボディをしているが、「グリーン」とは程遠いマシンだ。",
   "gtocore.lang.isa_mill.1.-879967587": "排気ファンからは常に奇妙な臭いが漂い、そのぐちゃぐちゃになった生成物に触れたがる従業員はほとんどいない。",
   "gtocore.lang.isa_mill.2.64060607": "ボールによる暴力的な湿式粉砕であらゆる鉱石を粉砕するが、その効率が驚くほど高いことは認めざるを得ない。",
   "gtocore.lang.isa_mill.3.-1040638843": "研究所の科学者たちは鼻をつまみながら認めるしかない。時には暴力が確かに問題を解決することを。",
@@ -2597,7 +2597,7 @@
   "block.gtocore.luv_arc_generator": "§d精鋭アーク発生器 II§r",
   "gtocore.machine.luv_arc_generator.tooltip": "§7テスラコイル",
 
-  "block.gtocore.luv_cluster": "§d精鋭多段圧延機 II§r",
+  "block.gtocore.luv_cluster": "§d精鋭クラスター圧延機 II§r",
   "gtocore.machine.luv_cluster.tooltip": "§7精密コーティング機",
 
   "block.gtocore.luv_dehydrator": "§d精鋭脱水機 II§r",
@@ -2675,7 +2675,7 @@
   "block.gtocore.lv_arc_generator": "ベーシックアーク発生器 §r",
   "gtocore.machine.lv_arc_generator.tooltip": "§7摩擦発電",
 
-  "block.gtocore.lv_cluster": "ベーシック多段圧延機 §r",
+  "block.gtocore.lv_cluster": "ベーシッククラスター圧延機 §r",
   "gtocore.machine.lv_cluster.tooltip": "§7ウェハーの生産",
 
   "block.gtocore.lv_dehydrator": "ベーシック脱水機 §r",
@@ -3113,7 +3113,7 @@
   "block.gtocore.mv_arc_generator": "§b高度なアーク発生器 §r",
   "gtocore.machine.mv_arc_generator.tooltip": "§7摩擦発電",
 
-  "block.gtocore.mv_cluster": "§b高度な多段圧延機 §r",
+  "block.gtocore.mv_cluster": "§b高度なクラスター圧延機 §r",
   "gtocore.machine.mv_cluster.tooltip": "§7ウェハーの生産",
 
   "block.gtocore.mv_dehydrator": "§b高度な脱水機 §r",
@@ -3355,7 +3355,7 @@
   "block.gtocore.opv_arc_generator": "§9§lレジェンダリー・アーク発生器 §r",
   "gtocore.machine.opv_arc_generator.tooltip": "§7恒星エネルギー抽出機",
 
-  "block.gtocore.opv_cluster": "§9§lレジェンダリー・多段圧延機 §r",
+  "block.gtocore.opv_cluster": "§9§lレジェンダリー・クラスター圧延機 §r",
   "gtocore.machine.opv_cluster.tooltip": "§7現実の織り手",
 
   "block.gtocore.opv_dehydrator": "§9§lレジェンダリー・脱水機 §r",
@@ -4710,7 +4710,7 @@
   "block.gtocore.uev_arc_generator": "§aエピックアーク発生器 II§r",
   "gtocore.machine.uev_arc_generator.tooltip": "§7プラズマアークマトリクス",
 
-  "block.gtocore.uev_cluster": "§aエピック多段圧延機 II§r",
+  "block.gtocore.uev_cluster": "§aエピッククラスター圧延機 II§r",
   "gtocore.machine.uev_cluster.tooltip": "§7量子積層装置",
 
   "block.gtocore.uev_dehydrator": "§aエピック脱水機 II§r",
@@ -6098,7 +6098,7 @@
   "gtocore.idle_reason.invalid_input": "無効な入力",
   "gtocore.idle_reason.lack_material": "材料不足",
   "gtocore.idle_reason.muffler_not_supported": "マシンの電圧ティアが高度マフラーハッチに対応していません",
-  "gtocore.idle_reason.neutron_kinetic_energy_not_satisfies": "中子運動エネルギーが要求に達していません",
+  "gtocore.idle_reason.neutron_kinetic_energy_not_satisfies": "中性子運動エネルギーが要求に達していません",
   "gtocore.idle_reason.no_crank": "動力不足",
   "gtocore.idle_reason.no_mana": "マナ不足",
   "gtocore.idle_reason.no_match": "レシピが見つかりません",
@@ -6419,8 +6419,8 @@
   "gtocore.lang.fabulous_pool.0.646454139": "通常のプール1000個分のマナを貯蔵可能",
   "gtocore.lang.fast_neutron_breeder.0.1975478010": "動作メカニズム",
   "gtocore.lang.fast_neutron_breeder.1.1890689035": "最大2048並列に対応し、他の方法での加速は不可能です。",
-  "gtocore.lang.fast_neutron_breeder.2.-1346839424": "レシピは最低中子束を満たす必要があります。",
-  "gtocore.lang.fast_neutron_breeder.3.-2088427492": "中子束は、中子源の投入またはレシピの実行中に増加させることができます。",
+  "gtocore.lang.fast_neutron_breeder.2.-1346839424": "レシピは最低中性子束を満たす必要があります。",
+  "gtocore.lang.fast_neutron_breeder.3.-2088427492": "中性子束は、中性子源の投入またはレシピの実行中に増加させることができます。",
   "gtocore.lang.fast_neutron_breeder.4.1176038626": "中性子束が高いほど、炉の昇温速度が上がります",
   "gtocore.lang.fast_neutron_breeder.5.-536256945": "黒鉛粉末を搬入することで中性子束を吸収できます",
   "gtocore.lang.fast_neutron_breeder.6.1867267244": "冷却材を搬入することで温度を下げることができます",
@@ -6428,18 +6428,18 @@
   "gtocore.lang.fast_neutron_breeder.8.2109440921": "レシピ関連",
   "gtocore.lang.fast_neutron_breeder.9.1268627748": "搬入：増殖棒と対応する元素粉末。レシピによって必要な中性子束が異なります",
   "gtocore.lang.fast_neutron_breeder.10.-1617512112": "出力：枯渇増殖棒",
-  "gtocore.lang.fast_neutron_breeder.11.1243410595": "実際の並列数が多いほど動作時間は短くなります。計算式：T = t * (0.9 - (現在の中子束 - 必要な中子束) / 10MeV)^0.5",
+  "gtocore.lang.fast_neutron_breeder.11.1243410595": "実際の並列数が多いほど動作時間は短くなります。計算式：T = t * (0.9 - (現在の中性子束 - 必要な中性子束) / 10MeV)^0.5",
   "gtocore.lang.fast_neutron_breeder.12.-1069584143": "数値メカニズム",
-  "gtocore.lang.fast_neutron_breeder.13.-1899398944": "中子源を消費して初期束を提供：アンチモン-ベリリウム 10keV、プルトニウム-ベリリウム 100keV、カリホルニウム-252 1MeV",
-  "gtocore.lang.fast_neutron_breeder.14.605862822": "中子束は1秒ごとに10keV減少します。",
+  "gtocore.lang.fast_neutron_breeder.13.-1899398944": "中性子源を消費して初期束を提供：アンチモン-ベリリウム 10keV、プルトニウム-ベリリウム 100keV、カリホルニウム-252 1MeV",
+  "gtocore.lang.fast_neutron_breeder.14.605862822": "中性子束は1秒ごとに10keV減少します。",
   "gtocore.lang.fast_neutron_breeder.15.1228212578": "小さな粉/小さな塊/黒鉛粉末は、それぞれ0.1/0.25/1MeV減少させます。",
-  "gtocore.lang.fast_neutron_breeder.16.727805493": "中子束がE(keV)のとき、本体内にN個のイリジウム中子反射板を入れると、中子束は1秒ごとに (EN)^0.5 keV増加します。",
+  "gtocore.lang.fast_neutron_breeder.16.727805493": "中性子束がE(keV)のとき、本体内にN個のイリジウム中性子反射板を入れると、中性子束は1秒ごとに (EN)^0.5 keV増加します。",
   "gtocore.lang.fast_neutron_breeder.17.-1548239181": "初期温度298K、臨界点2098K",
-  "gtocore.lang.fast_neutron_breeder.18.1159230446": "計算によると、中子運動エネルギーが7MeV以上の場合、炉心温度は1秒間に1800K以上上昇し、1秒以内に臨界点に達するのに十分です。",
+  "gtocore.lang.fast_neutron_breeder.18.1159230446": "計算によると、中性子運動エネルギーが7MeV以上の場合、炉心温度は1秒間に1800K以上上昇し、1秒以内に臨界点に達するのに十分です。",
   "gtocore.lang.fast_neutron_breeder.19.-140293769": "1秒あたりの発熱量計算式：H=K×1.27×(E×10)^1.88（結果は切り上げ）",
   "gtocore.lang.fast_neutron_breeder.20.1058073012": "冷却材係数(K/mB/s)：蒸留水 1、液体窒素 4、液体ヘリウム 80",
   "gtocore.lang.fast_neutron_breeder.21.1559221152": "冷却後、それぞれ蒸気、窒素ガス、ヘリウムガスを出力します。",
-  "gtocore.lang.fast_neutron_breeder.22.-1533886355": "1秒ごとに、入力されたすべての中子調整剤/冷却材を消費します。",
+  "gtocore.lang.fast_neutron_breeder.22.-1533886355": "1秒ごとに、入力されたすべての中性子調整剤/冷却材を消費します。",
   "gtocore.lang.fast_neutron_breeder.23.1775028108": "1秒あたりの温度変化：ΔT=H-C×M（結果は切り捨て）",
   "gtocore.lang.fishing_farm.0.59287556": "回路を設定して有効化します",
   "gtocore.lang.fishing_farm.0.264009882": "魚は好きですか？",
