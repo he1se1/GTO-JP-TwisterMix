@@ -5398,22 +5398,22 @@
   "block.gtocore.zpm_16777216a_laser_target_hatch": "16777216§eA§r§cZPM§rレーザー受信ハッチ",
   "block.gtocore.zpm_accelerate_hatch": "§cZPM§r加速ハッチ",
 
-  "block.gtocore.zpm_arc_generator": "§cエリートアーク発生器 III§r",
+  "block.gtocore.zpm_arc_generator": "§c精鋭型アーク発生器 III§r",
   "gtocore.machine.zpm_arc_generator.tooltip": "§7テスラコイル",
 
-  "block.gtocore.zpm_cluster": "§cエリートクラスターミル III§r",
+  "block.gtocore.zpm_cluster": "§c精鋭型クラスターミル III§r",
   "gtocore.machine.zpm_cluster.tooltip": "§7精密コーティング機",
 
-  "block.gtocore.zpm_dehydrator": "§cエリート脱水機 III§r",
+  "block.gtocore.zpm_dehydrator": "§c精鋭型脱水機 III§r",
   "gtocore.machine.zpm_dehydrator.tooltip": "§7デザートストーム・シミュレーター",
 
-  "block.gtocore.zpm_laminator": "§cエリートラミネーター III§r",
+  "block.gtocore.zpm_laminator": "§c精鋭型ラミネーター III§r",
   "gtocore.machine.zpm_laminator.tooltip": "§7ナノコーティング機",
 
-  "block.gtocore.zpm_laser_welder": "§cエリートレーザー溶接機 III§r",
+  "block.gtocore.zpm_laser_welder": "§c精鋭型レーザー溶接機 III§r",
   "gtocore.machine.zpm_laser_welder.tooltip": "§7フォトンウェルディング・マスター",
 
-  "block.gtocore.zpm_loom": "§cエリート織機 III§r",
+  "block.gtocore.zpm_loom": "§c精鋭型織機 III§r",
   "gtocore.machine.zpm_loom.tooltip": "§7精密織機マスター",
 
   "block.gtocore.zpm_mana_assembler": "アルケインマナ組立機",
@@ -5421,17 +5421,17 @@
   "block.gtocore.zpm_mana_input_hatch": "アルケインマナ搬入ハッチ",
   "block.gtocore.zpm_mana_machine_hull": "アルケイン魔法機械筐体",
   "block.gtocore.zpm_mana_output_hatch": "アルケインマナ搬出ハッチ",
-  "block.gtocore.zpm_naquadah_reactor": "§cエリートナクアダ反応炉 III§r",
+  "block.gtocore.zpm_naquadah_reactor": "§c精鋭型ナクアダ反応炉 III§r",
   "block.gtocore.zpm_neutron_accelerator": "§cZPM§r中性子加速器",
   "block.gtceu.zpm_parallel_hatch": "§cZPM§r並列制御ハッチ",
   "block.gtocore.zpm_programmablec_hatch": "§cZPM§rプログラマブルハッチ",
 
-  "block.gtocore.zpm_rolling": "§cエリート圧延機 III§r",
+  "block.gtocore.zpm_rolling": "§c精鋭型圧延機 III§r",
   "gtocore.machine.zpm_rolling.tooltip": "§7油圧精密圧延",
 
   "block.gtocore.zpm_trading_station": "銀河間GregTech貿易ステーション Tier 7",
 
-  "block.gtocore.zpm_unpacker": "§cエリートアンパッカー III§r",
+  "block.gtocore.zpm_unpacker": "§c精鋭型アンパッカー III§r",
   "gtocore.machine.zpm_unpacker.tooltip": "§7精密アンパッカー・マスター",
 
   "block.gtocore.zpm_wireless_energy_unit": "§cZPM§rワイヤレスエネルギーユニット",
@@ -5464,7 +5464,7 @@
   "block.gtocore.zpm_wireless_output_hatch_4194304a": "4194304§eA§r§cZPM§rワイヤレスエネルギー搬出ハッチ",
   "block.gtocore.zpm_wireless_output_hatch_16777216a": "16777216§eA§r§cZPM§rワイヤレスエネルギー搬出ハッチ",
 
-  "block.gtocore.zpm_world_data_scanner": "§cエリートワールドデータスキャナー III§r",
+  "block.gtocore.zpm_world_data_scanner": "§c精鋭型ワールドデータスキャナー III§r",
   "gtocore.machine.zpm_world_data_scanner.tooltip": "§7次元特性アナライザー",
 
   "affix.apotheosis:bedrock_fluid_ore": "流体探索",
