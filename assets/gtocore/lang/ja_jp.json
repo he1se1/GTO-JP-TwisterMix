@@ -3452,8 +3452,8 @@
   "gtocore.lang.ozonation_purification_unit.1.-758000014": "反応性の高いオゾンガスの泡が水に入ります。これにより、以下のような微量元素の汚染物質を除去できます：",
   "gtocore.lang.ozonation_purification_unit.2.-228591722": "硫黄、鉄、マンガンが不溶性の酸化物を生成し、その後ろ過されます",
   "gtocore.lang.ozonation_purification_unit.2.-1847727867": "オゾン消費量 = 搬入水量 / 10,000mB",
-  "gtocore.lang.ozonation_purification_unit.3.-1196880868": "搬入口に1,024B以上のオゾンガスが含まれている場合、発生します",
-  "gtocore.lang.ozonation_purification_unit.5.-791519353": "0-1,024Bの範囲内でのオゾンガスの産出確率は0-80%です",
+  "gtocore.lang.ozonation_purification_unit.3.-1196880868": "搬入口に1,024B以上のオゾンガスが含まれていると",
+  "gtocore.lang.ozonation_purification_unit.5.-791519353": "0-1,024Bの範囲内でのオゾン浄化の成功確率は0-80%です",
   "gtocore.lang.ozonation_purification_unit.6.-568503440": "同ランクの浄化水を少量搬入することで15%上昇します",
   "gtocore.lang.ozonation_purification_unit.7.-7818596": "より高ランクの浄化水を搬入することで、さらに5%上昇します",
 
