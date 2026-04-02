@@ -1622,7 +1622,7 @@
   "gtocore.lang.fission_reactor.16.-1344879984": "冷却能力 = (冷却部品数 - 冷却部品の隣接数/3) × 8",
   "gtocore.lang.fission_reactor.17.1656673038": "冷却条件がみたされたとき、要求冷却能力 × 冷却材係数 mb分の冷却剤が消費され、その1秒間では温度が上昇しない。",
   "gtocore.lang.fission_reactor.18.682210113": "オーバークロック・メカニズム",
-  "gtocore.lang.fission_reactor.19.-62494071": "供給量 ≥ n × 必要量 (n>1) で1秒間の動作速度がn倍に向上",
+  "gtocore.lang.fission_reactor.19.-62494071": "冷却能力 ≥ n × 要求冷却能力 (n>1) で1秒間の動作速度がn倍に向上",
   "gtocore.lang.fission_reactor.20.-1889434194": "OCによりレシピ進捗が100%を超える場合、進捗は1秒しか進まず、超過1秒につき1K、温度が低下する。",
   "gtocore.lang.fission_reactor.21.629215326": "冷却材出力",
   "gtocore.lang.fission_reactor.22.-861236008": "蒸留水冷却：",
