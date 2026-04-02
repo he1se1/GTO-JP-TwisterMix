@@ -16,7 +16,7 @@
   "block.gtocore.abs_white_casing": "白色のABS樹脂機械ケーシング",
   "block.gtocore.abs_yellow_casing": "黄色のABS樹脂機械ケーシング",
 
-  "block.gtocore.absolute_baryonic_perfection_purification_unit": "絶対バリオン完璧浄化装置",
+  "block.gtocore.absolute_baryonic_perfection_purification_unit": "T8 絶対バリオン完璧浄化ユニット",
   "gtocore.machine.absolute_baryonic_perfection_purification_unit.items": "今回のサイクル組み合わせ:\\n%s, %s",
   "gtocore.lang.absolute_baryonic_perfection_purification_unit.0.-760783984": "水の浄化の最終段階は亜原子粒子を超え、バリオン内の最小の欠陥を特定する。",
   "gtocore.lang.absolute_baryonic_perfection_purification_unit.1.-1594113319": "必要なクォーク放出触媒を正しく特定することで、装置は触媒を活性化し、逸脱した粒子を安定させる。",
@@ -570,7 +570,7 @@
   "tag.item.gtceu.circuits.uxv": "UXV回路",
   "tag.item.gtceu.circuits.zpm": "ZPM回路",
 
-  "block.gtocore.clarifier_purification_unit": "クラリファイア浄化装置",
+  "block.gtocore.clarifier_purification_unit": "T1 ろ過浄化ユニット",
   "gtocore.lang.clarifier_purification_unit.0.-1686473135": "浄化水を得るための第一歩は、大型の物理フィルターを使用してマクロな汚染物質を取り除くことだ。",
   "gtocore.lang.clarifier_purification_unit.1.2084812265": "急速砂ろ過による一次水処理を行い、水中の細菌の85%と、ほぼすべての濁度（泥、シルト、微細な有機物、無機物、プランクトンなどの浮遊物質やコロイド物質）を除去する。",
   "gtocore.lang.clarifier_purification_unit.2.159760669": "一定量の水を処理するとフィルターが目詰まりする。",
@@ -1525,7 +1525,7 @@
 
   "block.gtocore.extreme_strength_tritanium_casing": "極限強度トリタニウム機械ケーシング",
 
-  "block.gtocore.extreme_temperature_fluctuation_purification_unit": "極端温度変動浄化装置",
+  "block.gtocore.extreme_temperature_fluctuation_purification_unit": "T5 極端温度変動浄化ユニット",
   "gtocore.lang.extreme_temperature_fluctuation_purification_unit.0.-1708505835": "水浄化の第5段階は、複雑な有機ポリマーや、単純な酸、清澄剤、フィルターに耐性を持つ可能性のある極限環境微生物を蒸発させることです。",
   "gtocore.lang.extreme_temperature_fluctuation_purification_unit.1.1530492318": "超高圧チャンバーと極端な温度変動を組み合わせることで、水を超臨界状態に保ちつつ、残留する汚染物質を蒸発させ、ろ過の準備を整えます。",
   "gtocore.lang.extreme_temperature_fluctuation_purification_unit.2.2018087884": "加熱サイクルの完了：まず水を10,000K以上に加熱し、その後10K以下まで冷却します。",
@@ -1639,8 +1639,8 @@
   "item.gtocore.floating_zone_purification_silicon_boule": "フローティングゾーン精製シリコンブール",
   "block.gtocore.flocculation_casing": "滑らかな無菌凝集機械ブロック",
 
-  "block.gtocore.flocculation_purification_unit": "凝集浄化装置",
-  "gtocore.lang.flocculation_purification_unit.0.-2080308578": "浄水の第3段階は、清澄剤（この場合はポリ塩化アルミニウム）を使用して微細な汚染物質を除去することである。",
+  "block.gtocore.flocculation_purification_unit": "T3 凝集浄化ユニット",
+  "gtocore.lang.flocculation_purification_unit.0.-2080308578": "浄水の第3段階は、清澄剤（ポリ塩化アルミニウム）を使用して微細な汚染物質を除去することである。",
   "gtocore.lang.flocculation_purification_unit.1.-392111623": "塵、マイクロプラスチック、その他の汚染物質などは、凝集によって溶液中の分散懸浮粒子をより大きな塊にまとめ、さらなるろ過を容易にする。",
   "gtocore.lang.flocculation_purification_unit.2.-1513208107": "稼働のためにポリ塩化アルミニウムを供給する",
   "gtocore.lang.flocculation_purification_unit.3.-218104451": "リサイクル可能な凝集廃液を搬出する",
@@ -1870,16 +1870,16 @@
   "gtocore.lang.high_energy_laser_lathe.5.-265782699": "透明な外装越しに、光子彫刻の魔法の瞬間を目の当たりにできる",
   "gtocore.lang.high_energy_laser_lathe.6.1239337281": "レーザーを最も優雅な彫刻ツールに",
 
-  "block.gtocore.high_energy_laser_purification_unit": "高エネルギーレーザー浄化装置",
-  "gtocore.lang.high_energy_laser_purification_unit.0.1774409991": "水浄化の第6段階は、水中に残留する陰イオンを特定することです。これらのイオンは、将来のウェハー製造において電気的な不具合を引き起こす可能性があります。",
-  "gtocore.lang.high_energy_laser_purification_unit.1.-847822093": "異なる波長の光子ビームを水に照射し、外殻電子にエネルギーを伝達して原子から離脱させ、タンクの壁を通過させることで、水が完全に電極化されることを保証します。",
-  "gtocore.lang.high_energy_laser_purification_unit.2.-2139944094": "操作中、レンズハッチ内のレンズを交換する必要があります。",
-  "gtocore.lang.high_energy_laser_purification_unit.3.-860376071": "現在のレンズの交換が必要になると、マルチブロック機械はレンズ指示ハッチを通じて信号を出力します。",
-  "gtocore.lang.high_energy_laser_purification_unit.4.1230409227": "レンズ交換の要求は、6秒から12秒のランダムな間隔で発生します。",
-  "gtocore.lang.high_energy_laser_purification_unit.5.1317932194": "信号が出力されてから4秒以内にレンズを交換する必要があります。",
-  "gtocore.lang.high_energy_laser_purification_unit.6.1183969828": "レンズの順序は、赤/橙/茶/黄/緑/シアン/青/紫/マゼンタ/ピンクの順です。",
-  "gtocore.lang.high_energy_laser_purification_unit.7.286003556": "必要なレンズはGUI内で確認できます。",
-  "gtocore.lang.high_energy_laser_purification_unit.9.-457103085": "交換に成功するたびに4秒間稼働し、成功率が10%向上します。",
+  "block.gtocore.high_energy_laser_purification_unit": "T6 高エネルギーレーザー浄化ユニット",
+  "gtocore.lang.high_energy_laser_purification_unit.0.1774409991": "水浄化の第6段階は、水中に残留する陰イオンを特定することだ。これらのイオンは、将来のウェハー製造において電気的な不具合を引き起こす可能性がある。",
+  "gtocore.lang.high_energy_laser_purification_unit.1.-847822093": "異なる波長の光子ビームを水に照射し、外殻電子にエネルギーを伝達して原子から離脱させ、タンクの壁を通過させることで、水が完全に電極化されることを保証する。",
+  "gtocore.lang.high_energy_laser_purification_unit.2.-2139944094": "操作中、レンズハッチ内のレンズを交換する必要がある。",
+  "gtocore.lang.high_energy_laser_purification_unit.3.-860376071": "現在のレンズの交換が必要になると、マルチブロック機械はレンズ指示ハッチを通じて信号を出力する。",
+  "gtocore.lang.high_energy_laser_purification_unit.4.1230409227": "レンズ交換の要求は、6秒から12秒のランダムな間隔で発生する。",
+  "gtocore.lang.high_energy_laser_purification_unit.5.1317932194": "信号が出力されてから4秒以内にレンズを交換する必要がある。",
+  "gtocore.lang.high_energy_laser_purification_unit.6.1183969828": "レンズの順序は、赤/橙/茶/黄/緑/シアン/青/紫/マゼンタ/ピンクの順だ。",
+  "gtocore.lang.high_energy_laser_purification_unit.7.286003556": "必要なレンズはGUI内で確認できる。",
+  "gtocore.lang.high_energy_laser_purification_unit.9.-457103085": "交換に成功するたびに4秒間稼働し、成功率が10%向上する。",
 
   "block.gtocore.high_energy_ultraviolet_emitter_casing": "高エネルギー紫外線エミッターケーシング",
   "item.gtocore.high_frequency_laser": "高周波レーザー",
@@ -3447,7 +3447,7 @@
   "block.gtocore.original_bronze_casing": "オリジナルブロンズケーシング",
   "block.gtocore.oxidation_resistant_hastelloy_n_mechanical_casing": "耐酸化ハステロイN機械ケーシング",
 
-  "block.gtocore.ozonation_purification_unit": "オゾン浄化ユニット",
+  "block.gtocore.ozonation_purification_unit": "T2 オゾン浄化ユニット",
   "gtocore.lang.ozonation_purification_unit.0.-29738040": "水の浄化の第2段階はオゾン処理であり、これには大量の低分子の注入が含まれます。",
   "gtocore.lang.ozonation_purification_unit.1.-758000014": "反応性の高いオゾンガスの泡が水に入ります。これにより、以下のような微量元素の汚染物質を除去できます：",
   "gtocore.lang.ozonation_purification_unit.2.-228591722": "硫黄、鉄、マンガンが不溶性の酸化物を生成し、その後ろ過されます",
@@ -3549,7 +3549,7 @@
   "gtocore.lang.petrochemical_plant.4.-231384556": "巨大な金属のジャングルでありながら、有機化学の最も精密な芸術の舞台です",
   "gtocore.lang.petrochemical_plant.5.-614484760": "複雑な化学プロセスをシンプルかつ効率的に",
 
-  "block.gtocore.ph_neutralization_purification_unit": "pH中和浄化ユニット",
+  "block.gtocore.ph_neutralization_purification_unit": "T4 pH中和浄化ユニット",
   "gtocore.lang.ph_neutralization_purification_unit.0.-1020628172": "水浄化の第4段階は、溶液を中和してpH値を正確に7に調整し、溶液を不活性にして水以外の水素イオン活性をなくすことです",
   "gtocore.lang.ph_neutralization_purification_unit.1.1899934642": "土壌や地質に含まれる酸やアルカリは、水の天然アルカリ度を変化させ、敏感な材料と腐食反応を起こす可能性があります",
   "gtocore.lang.ph_neutralization_purification_unit.2.-168584894": "各サイクルの初期pH値は4.5から9.5の間で変動します",
@@ -3818,7 +3818,7 @@
   "item.gtocore.repeating_command_block_core": "リピートコマンドブロックのコア",
   "block.gtocore.research_holder": "研究ホルダー",
 
-  "block.gtocore.residual_decontaminant_degasser_purification_unit": "残留汚染物質脱ガス浄化装置",
+  "block.gtocore.residual_decontaminant_degasser_purification_unit": "T7 残留汚染物質脱ガス浄化ユニット",
   "gtocore.machine.residual_decontaminant_degasser_purification_unit.fluids": "今回のサイクルの必要量:\n%s",
   "gtocore.lang.residual_decontaminant_degasser_purification_unit.0.1671773251": "水浄化の最後から2番目のステップ、第7ステップは、一連の不規則で複雑なプロセスです。",
   "gtocore.lang.residual_decontaminant_degasser_purification_unit.1.-457631825": "前のステップで使用された除染剤の残留物を除去することを目的としています。",
@@ -3891,7 +3891,7 @@
   "block.gtocore.rocket_assembler": "ロケット組立機",
 
   "block.gtocore.rocket_large_turbine": "大型ロケットエンジンタービン",
-  "block.gtocore.rocket_mega_turbine": "特大ロケットエンジンタービン",
+  "block.gtocore.rocket_mega_turbine": "メガロケットエンジンタービン",
   "item.gtocore.rotating_transparent_surface": "回転する透明な表面",
 
   "block.gtocore.rotor_hatch": "ローターハッチ",
@@ -4329,7 +4329,7 @@
   "gtocore.lang.superconducting_magnetic_presser.5.-1383951712": "コインを容易にマッハ3まで加速できる！",
   "gtocore.lang.superconducting_magnetic_presser.6.-1204833437": "電磁力の工業的応用",
 
-  "block.gtocore.supercritical_mega_steam_turbine": "特大超臨界蒸気タービン",
+  "block.gtocore.supercritical_mega_steam_turbine": "メガ超臨界蒸気タービン",
   "block.gtocore.supercritical_steam_input_hatch": "超臨界蒸気搬入ハッチ",
 
   "gtceu.supercritical_steam_turbine": "超臨界蒸気発電",
@@ -5297,7 +5297,7 @@
 
   "item.gtocore.warped_ender_pearl": "歪んだエンダーパール",
 
-  "gtceu.water_purification_plant": "浄水場",
+  "gtceu.water_purification_plant": "浄水処理プラント",
   "block.gtocore.water_purification_plant": "浄水処理プラント",
   "gtocore.machine.water_purification_plant.bind": "バインド済みのマシン:",
   "gtocore.lang.water_purification_plant.0.1369142758": "処理ユニットリンクシステム",
