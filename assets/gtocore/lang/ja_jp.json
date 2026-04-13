@@ -1607,7 +1607,7 @@
   "gtocore.lang.fission_reactor.2.-1593095757": "彼によれば、GT側の高度な化学技術で生成されるナトリウムカリウム冷却材を使えば、この機械の性能をより十分に発揮できるとのことです",
   "gtocore.lang.fission_reactor.3.-1623337062": "昇温係数 = 燃料部品の隣接数 + 1",
   "gtocore.lang.fission_reactor.3.-1833223094": "真偽のほどは誰も知らない。結局のところ、寝返った者の口からどれほどの真実が語られるというのだろうか。",
-  "gtocore.lang.fission_reactor.4.668971985": "冷却部品: 最大冷却能力を提供",
+  "gtocore.lang.fission_reactor.4.668971985": "冷却部品: 冷却能力を提供",
   "gtocore.lang.fission_reactor.5.1320655071": "冷却部品は燃料部品に隣接している必要がある",
   "gtocore.lang.fission_reactor.6.-834755360": "温度管理システム",
   "gtocore.lang.fission_reactor.7.762948664": "初期温度: 298K",
@@ -2403,12 +2403,12 @@
   "gtocore.difficulty_config.comment.gtceu.machine.multiblock.steam.large_circuit_assembler.reduction_duration.0": "より多くの時間、より高い出力。等価交換、それは合理的だ。",
 
   "block.gtocore.large_coke_oven": "大型コークス炉",
-  "block.gtocore.large_cracker": "大型クラッカー",
-  "block.gtocore.large_crusher": "大型クラッシャー",
+  "block.gtocore.large_cracker": "大型接触分解機",
+  "block.gtocore.large_crusher": "大型鉱石粉砕機",
   "block.gtocore.large_crystallization_chamber": "大型結晶化チャンバー",
   "block.gtceu.large_cutter": "大型切断機",
   "block.gtceu.large_distillery": "大型蒸留器",
-  "block.gtceu.large_electrolyzer": "大型電解槽",
+  "block.gtceu.large_electrolyzer": "大型電気分解機",
   "block.gtceu.large_electromagnet": "大型電磁工場",
   "block.gtceu.large_engraving_laser": "大型レーザー刻印機",
   "block.gtocore.large_expandable_space_station_core_module": "工業宇宙ステーション・コアモジュール",
@@ -2440,7 +2440,7 @@
 
   "block.gtocore.large_pyrolyse_oven": "大型熱分解炉",
 
-  "block.gtocore.large_rock_crusher": "大型岩石粉砕機",
+  "block.gtocore.large_rock_crusher": "大型岩石破砕機",
   "gtocore.machine.large_rock_crusher.tooltip.0": "搬入ハッチに対応する液体を入れる必要があります",
 
   "block.gtocore.large_rolling": "大型圧延機",
@@ -2471,7 +2471,7 @@
   "gtocore.lang.large_steam_circuit_assembler.7.1488230621": "回路倍増生産",
   "gtocore.lang.large_steam_circuit_assembler.8.1977435861": "増産モードが有効な場合、出力を倍増させます (デフォルトで有効)",
 
-  "block.gtocore.large_steam_crusher": "大型蒸気クラッシャー",
+  "block.gtocore.large_steam_crusher": "大型蒸気鉱石粉砕機",
   "block.gtocore.large_steam_furnace": "大型蒸気かまど",
   "block.gtocore.large_steam_input_hatch": "大型蒸気搬入ハッチ",
   "block.gtocore.large_steam_macerator": "大型蒸気粉砕機",
@@ -2832,7 +2832,7 @@
   "block.gtocore.manipulator": "量子マニピュレーター機械ブロック",
 
   "block.gtocore.mantle_crusher": "マントルクラッシャー",
-  "gtocore.lang.mantle_crusher.0.1155931590": "地球の心の工業的化身。マントルの力を操り、すべてを粉砕する。",
+  "gtocore.lang.mantle_crusher.0.1155931590": "地球の心の工業的化身。マントルの力を操り、すべてを破砕する。",
   "gtocore.lang.mantle_crusher.1.-275128847": "岩を放り込むだけでいい。あとは地震規模のマシンの力に任せよう。",
   "gtocore.lang.mantle_crusher.2.-1262270807": "鉱石から廃棄物まで、あらゆる物質がここで微細な粒子へと粉砕される。",
   "gtocore.lang.mantle_crusher.3.-1788382046": "砕岩機モード：搬入ハッチに対応する液体を入れる必要がある。",
@@ -4240,10 +4240,10 @@
   "gtceu.steam_cracker": "蒸気クラッキング",
   "block.gtocore.steam_cracker": "蒸気クラッカー",
 
-  "block.gtocore.steam_crusher": "蒸気粉砕機",
+  "block.gtocore.steam_crusher": "蒸気式鉱石粉砕機",
   "block.gtocore.steam_fluid_input_hatch": "蒸気流体搬入ハッチ",
   "block.gtocore.steam_fluid_output_hatch": "蒸気流体搬出ハッチ",
-  "block.gtocore.steam_foundry": "蒸気鋳造炉",
+  "block.gtocore.steam_foundry": "蒸気式鋳造炉",
   "block.gtocore.steam_mega_turbine": "メガ蒸気タービン",
 
   "block.gtocore.steam_mixer": "蒸気ミキサー",
