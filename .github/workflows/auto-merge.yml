@@ -34,15 +34,20 @@ jobs:
         with:
           path: last_hash.txt
           key: manual-hash-${{ steps.remote-hash.outputs.latest_hash }}
+          restore-keys: |
+            manual-hash-
 
       - name: Check update
         id: check
+        shell: bash
         run: |
-          if [ -f last_hash.txt ] && [ "$(cat last_hash.txt)" == "${{ steps.remote-hash.outputs.latest_hash }}" ]; then
+          REMOTE_HASH="${{ steps.remote-hash.outputs.latest_hash }}"
+          if [ -f last_hash.txt ] && [ "$(cat last_hash.txt)" == "$REMOTE_HASH" ]; then
             echo "update_needed=false" >> $GITHUB_OUTPUT
+            echo "Manual repo has not changed since last build."
           else
-            echo "${{ steps.remote-hash.outputs.latest_hash }}" > last_hash.txt
             echo "update_needed=true" >> $GITHUB_OUTPUT
+            echo "$REMOTE_HASH" > last_hash.txt
           fi
 
       - name: Checkout Manual repo
@@ -54,9 +59,9 @@ jobs:
 
       - name: Set up Python & env
         if: steps.check.outputs.update_needed == 'true' || github.event_name == 'workflow_dispatch'
-        run: |
-          # 日付を取得して環境変数へ (例: MyCustomTranslation-20260218)
-          echo "ZIP_NAME=${{ env.PACK_NAME_PREFIX }}-$(date +'%Y%m%d')" >> $GITHUB_ENV
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
 
       - name: Merge JSONs
         if: steps.check.outputs.update_needed == 'true' || github.event_name == 'workflow_dispatch'
@@ -65,29 +70,42 @@ jobs:
       - name: Create Zip
         if: steps.check.outputs.update_needed == 'true' || github.event_name == 'workflow_dispatch'
         run: |
+          # 日付を取得して環境変数へ (例: MyCustomTranslation-20260218)
+          ZIP_NAME="${{ env.PACK_NAME_PREFIX }}-$(date +'%Y%m%d')"
+          echo "ZIP_NAME=$ZIP_NAME" >> $GITHUB_ENV
           cd output
-          zip -r ../${{ env.ZIP_NAME }}.zip .
+          zip -r ../$ZIP_NAME.zip .
           cd ..
 
       - name: GitHub Release
         if: steps.check.outputs.update_needed == 'true' || github.event_name == 'workflow_dispatch'
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: build-${{ env.ZIP_NAME }}
-          name: "Release ${{ env.ZIP_NAME }}"
           files: ${{ env.ZIP_NAME }}.zip
+          tag_name: release-${{ env.ZIP_NAME }}
+          name: "Release ${{ env.ZIP_NAME }}"
+          body: |
+            Automatically merged Japanese translations.
+            Source (Manual): twister716/GregTech-Odessey-JP-Translation
+            Source (Machine): Gemini-generated assets in this repo.
+          draft: false
+          prerelease: false
+          overwrite: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Cleanup Old Releases
         if: steps.check.outputs.update_needed == 'true' || github.event_name == 'workflow_dispatch'
-        run: |
-          # 最新10件のリリースを取得、先頭3件を除いて削除
-          old_releases=$(gh release list --limit 10 | awk '{print $1}' | tail -n +4)
-          
-          for tag in $old_releases; do
-            echo "Deleting old release: $tag"
-            gh release delete "$tag" --yes --cleanup-tag
-          done
+        shell: bash
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # 最新3件を残して古いリリースを削除 (タグを含む)
+          old_releases=$(gh release list --limit 10 --repo ${{ github.repository }} | awk '{print $1}' | tail -n +4)
+          
+          if [ -n "$old_releases" ]; then
+            for tag in $old_releases; do
+              echo "Deleting old release and tag: $tag"
+              gh release delete "$tag" --yes --repo ${{ github.repository }} --cleanup-tag || true
+            done
+          fi
