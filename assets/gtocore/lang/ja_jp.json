@@ -1617,7 +1617,7 @@
   "gtocore.lang.fission_reactor.11.673958219": "温度上限を超えると機械が損傷し始め、完全に損傷すると...",
   "gtocore.lang.fission_reactor.12.-916343722": "冷却システム",
   "gtocore.lang.fission_reactor.13.-1660298463": "冷却材 (係数): 蒸留水 (800) ナトリウムカリウム合金 (20)",
-  "gtocore.lang.fission_reactor.14.-461574819": "冷却条件：冷却能力 ≥ 要求冷却能力",
+  "gtocore.lang.fission_reactor.14.-461574819": "冷却条件：冷却能力 ≥ 要求冷却能力 ≥ 1",
   "gtocore.lang.fission_reactor.15.2020151051": "要求冷却能力 = レシピ発熱量 × 実際の並列数 × 現在の温度 / 1500",
   "gtocore.lang.fission_reactor.16.-1344879984": "冷却能力 = (冷却部品数 - 冷却部品の隣接数/3) × 8",
   "gtocore.lang.fission_reactor.17.1656673038": "冷却条件がみたされたとき、要求冷却能力 × 冷却材係数 mb分の冷却剤が消費され、その1秒間では温度が上昇しない。",
